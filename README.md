@@ -5,6 +5,6 @@ This repository contains two programs. One of the programs scans a single-paged 
 
 In order to run these programs, you will need to have the following installed on your computer:
 
-1. SANE
-2. Pillow
-3. Pycrypto
+1. SANE - http://www.sane-project.org/source.html 
+2. Pillow - https://github.com/python-pillow/Pillow
+3. Pycrypto- https://www.dlitz.net/software/pycrypto/
