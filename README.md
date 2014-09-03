@@ -17,4 +17,6 @@ About the Files
 
 **encryptionScanner.py** is the script that performs a single-page scan and encrypts the bytes from that scan. Encryption is performed using AES (American Encryption Standard) with a cipher block mode of operation. 
 
+This particular script should, in theory, work with any scanner. That means this script should (1) be able to detect your scanner, and (2) perform a scan with that scanner. If your scanner does not work with this script, please check your SANE configurations. (More likely than not, the issue is caused by an incorrect configuration.) 
+
 **fileDecryption.py** is the script that decrypts the encrypted documents.
