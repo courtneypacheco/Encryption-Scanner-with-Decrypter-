@@ -14,6 +14,7 @@ SANE is used to perform the actual scan, Pillow works with SANE to display scann
 
 About the Files
 ==================================
-encryptionScanner.py is the script that performs a single-page scan and encrypts the bytes from that scan. Encryption is performed using AES (American Encryption Standard) with a cipher block mode of operation. 
 
-fileDecryption.py is the script that decrypts the encrypted documents.
+**encryptionScanner.py** is the script that performs a single-page scan and encrypts the bytes from that scan. Encryption is performed using AES (American Encryption Standard) with a cipher block mode of operation. 
+
+**fileDecryption.py** is the script that decrypts the encrypted documents.
